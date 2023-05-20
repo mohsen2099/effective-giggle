@@ -1,0 +1,136 @@
+*{
+  box-sizing: border-box;
+    direction: ltr;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    font-size: 16px;
+}
+
+.container{
+    width: 100%;
+}
+
+
+.phone{
+    width: 400px;
+    margin: 0 auto;
+    background-color:rgba(0,0,0,.1);
+    min-height: 100vh;
+}
+
+.footer {
+    width: 400px;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer a{
+color: #333;
+    font-size: 1.5em;
+}
+.footer img{
+    width: 20px;
+    border-radius: 30%;
+
+}
+
+.head-nav{
+display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.right{
+    font-size: 1.5em;
+}
+
+.left span{
+font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+    margin-right: 5px;
+}
+
+.left img{
+    font-size: 1.2em;
+    color: #333;
+    width: 20px;
+}
+
+.right img{
+    width: 20px;
+}
+
+.info img{
+    width: 100PX;
+    border-radius: 50%;
+}
+
+
+
+.profile .info{
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.number{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #333;
+}
+
+.title{
+    font-size: 1.2em;
+    color: #333;
+
+}
+.caption {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.id{
+font-size: 1.1em;
+    font-weight: bold;
+}
+
+.tag{
+color: #3498db;
+    font-size:1.1em;
+    margin-top: 5px;
+}
+
+.edit-profile{
+    background-color: white;
+    display: block;
+    text-align: center;
+    color: #333;
+    border: 1px solid rgba(0,0,0,.2);
+    padding: 6px 0;
+    font-weight: bold;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+
